@@ -1,0 +1,76 @@
+/*------------BACKGROUND-----------*/
+html {
+    background: repeating-linear-gradient(
+      45deg,
+      #9AFF91,
+      #9AFF91 30px,
+      #12AB60 30px,
+      #12AB60 60px
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/*------------HEADER---------------*/
+h1 {
+    color: #2FB249;
+}
+
+h1:hover {
+    color: #72ff8e;
+    cursor: default;
+}
+.page-header {
+    font-family: Bahiana, sans-serif;
+    font-size: 35px;
+    padding-top: 2px;
+    margin-bottom: -20px;
+}
+/*-------------CONTAINER------------*/
+.container {
+    background: #f2092c;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 4% 35%;    
+}
+/*--------------BOARD---------------*/
+.game {
+    margin-bottom: 20px;
+}
+
+/*------------BUTTONS---------------*/
+.board {
+    background: rgba(255,255,255,.2);
+	border-radius: 4px;
+    border-style: none;
+    width: 60px;
+    margin: 7px;
+    font-family: Bahiana, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+	cursor: pointer;
+}
+
+.board:hover {
+	background: rgba(255,255,255,.6);
+}
+/*---------'NEW GAME' BUTTON---------*/
+.new-game {
+    background: rgba(255,255,255,.1);
+	border-radius: 3px;
+    border-style: none;
+    line-height: 100%;
+    width: 130px;
+    height: 45px;
+    font-family: Bahiana, sans-serif;
+    font-size: 35px;
+    color: #FFACA1;
+    text-align: center;
+	cursor: pointer;
+} 
+
+.new-game:hover {
+	background: rgba(255,255,255,.2);
+    color: #ffd3d3;
+}
