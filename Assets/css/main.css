@@ -14,11 +14,11 @@ html {
 h1 {
     color: #2FB249;
 }
-
 h1:hover {
     color: #72ff8e;
     cursor: default;
 }
+
 .page-header {
     font-family: Bahiana, sans-serif;
     font-size: 35px;
@@ -31,7 +31,7 @@ h1:hover {
     border-radius: 20px;
     width: 400px;
     height: 500px;
-    margin: 4% 35%;    
+    margin: 4% 36% 6%;    
 }
 /*--------------BOARD---------------*/
 .game {
@@ -51,7 +51,6 @@ h1:hover {
     text-align: center;
 	cursor: pointer;
 }
-
 .board:hover {
 	background: rgba(255,255,255,.6);
 }
@@ -69,8 +68,23 @@ h1:hover {
     text-align: center;
 	cursor: pointer;
 } 
-
 .new-game:hover {
 	background: rgba(255,255,255,.2);
     color: #ffd3d3;
+}
+
+#footer {
+    height: 20px;
+    background: rgba(255,255,255,.6);
+    font-family: helvetica;
+    font-size: 13px;
+    text-align: center;
+    color: #323335;
+    padding-top: 5px;
+}
+
+a {
+    color: fuchsia;
+    text-decoration: none;
+    font-weight: bold;
 }
