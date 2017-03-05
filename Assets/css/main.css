@@ -75,13 +75,11 @@ h1:hover {
 }
 
 footer {
-    height: 20px;
-    background: rgba(255,255,255,.6);
     font-family: helvetica;
     font-size: 13px;
     text-align: center;
     color: #323335;
-    padding-top: 5px;
+    height: 20px;
 }
 
 a {
