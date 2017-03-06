@@ -32,7 +32,9 @@ h1:hover {
     border-radius: 20px;
     width: 400px;
     height: 500px;
-    margin: 4% 36% 6%;    
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;     
 }
 /*--------------BOARD---------------*/
 .game {
@@ -75,14 +77,16 @@ h1:hover {
 }
 
 #footer {
-    background-color: rgba(255,255,255,.8);
+    background-color: white;
     font-family: helvetica;
     font-size: 13px;
     text-align: center;
     color: #323335;
-    height: 20px;
-    padding-top: 4px;
-    padding-bottom: 3px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
 }
 
 a {
