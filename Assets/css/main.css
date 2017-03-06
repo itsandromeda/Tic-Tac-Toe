@@ -32,7 +32,7 @@ h1:hover {
     border-radius: 20px;
     width: 400px;
     height: 500px;
-    margin-top: 4%;
+    margin-top: 1%;
     margin-left: auto;
     margin-right: auto;     
 }
@@ -74,6 +74,25 @@ h1:hover {
 .new-game:hover {
 	background: rgba(255,255,255,.2);
     color: #ffd3d3;
+}
+/*---------POINTS---------*/
+#points {
+    text-align: left;
+}
+
+.points {
+    font-family: Bahiana, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 20px 0 0 20px;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    border-radius: 10px;
+}
+#xCount, #oCount, #turn {
+    padding-right: 20px;
+    color: #84DD80;
 }
 
 #footer {
