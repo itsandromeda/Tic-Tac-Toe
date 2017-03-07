@@ -90,6 +90,7 @@ h1:hover {
     background-color: black;
     border-radius: 10px;
 }
+
 #xCount, #oCount, #turn {
     padding-right: 20px;
     color: #84DD80;

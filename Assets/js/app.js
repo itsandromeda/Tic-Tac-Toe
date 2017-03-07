@@ -11,12 +11,12 @@ var button1 = document.getElementById("1"),
     button9 = document.getElementById("9"),
     startOver = document.getElementById("newGame"),
     board = document.getElementsByClassName("board"),
-    gameStatus = false, //no winner
     turn = document.getElementById("turn"),
     xCount = document.getElementById("xCount"),
     oCount = document.getElementById("oCount"),
     xWins = 0,
     oWins = 0,
+    gameStatus = false, //no winner
     i;
 
 function startGame() {
@@ -81,6 +81,5 @@ function newGame() {
 for (i = 0; i < board.length; i += 1) {
     board[i].addEventListener("click", startGame);
 }
-
 
 startOver.addEventListener("click", newGame);
