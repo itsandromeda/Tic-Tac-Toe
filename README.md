@@ -20,4 +20,7 @@
   <li>Crear los test para las diferentes funciones del Tic Tac Toe.</li>
   <li>Crear las funciones del tic tac toe.</li>
 </ul>
+
+## Demo
+![Tic Tac Toe](https://s-media-cache-ak0.pinimg.com/originals/cf/d2/c3/cfd2c338b4768996aeb8ae1faaa56786.gif)
 <p>Mira cómo quedó haciendo click <strong><a href="https://itsandromeda.github.io/Tic-Tac-Toe/" target="_blank">aquí.</a></strong></p>
